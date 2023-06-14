@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "outDir": "./dist/src",
+    "rootDirs": ["./src/", /*"./test"*/],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "allowJs": true,
+    "removeComments": true,
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+  },
+  "include": [
+    "./src/**/*",
+  ],
+  "exclude": [
+    "node_modules",
+  ],
+}
